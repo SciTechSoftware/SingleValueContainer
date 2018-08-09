@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleValueContainerDemo", "SingleValueContainerDemo\SingleValueContainerDemo.csproj", "{CE7A8798-E573-435E-8257-302314C2249F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleValueContainer", "SingleValueContainer\SingleValueContainer.csproj", "{947D07C3-895A-489A-9DCE-0635D00F9C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7A8798-E573-435E-8257-302314C2249F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7A8798-E573-435E-8257-302314C2249F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7A8798-E573-435E-8257-302314C2249F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7A8798-E573-435E-8257-302314C2249F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947D07C3-895A-489A-9DCE-0635D00F9C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947D07C3-895A-489A-9DCE-0635D00F9C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947D07C3-895A-489A-9DCE-0635D00F9C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947D07C3-895A-489A-9DCE-0635D00F9C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87994ABD-577B-4901-8BEB-ED98953E6E22}
+	EndGlobalSection
+EndGlobal

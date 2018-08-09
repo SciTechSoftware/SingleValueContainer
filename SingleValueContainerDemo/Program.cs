@@ -1,15 +1,4 @@
-# SingleValueContainer
-
-The SingleValueContainer class can be used to prevent duplicate instances in a .NET application. For instance, duplicate instances detected by .NET Memory Profiler.
-
-It provides a single copy of a requested element (based on IEqualityComparer) similar to the string.Intern method (but the container handles any class, not just strings). However, as soon as the container is cleared or GCed, the elements in the container are also eligible for collection. The SingleValueContainer is suitable to use when you have a clearly defined "region" where you want to avoid duplicate instances. This can for instance be when you open an XML-file or other document that includes a lot of duplicate string or other duplicate instances.
-
-The WeakSingleValueContainer class is similar to the SingleValueContainer, but it only keeps a weak reference to the elements, so there's no need to explicitly clear the container. However, the overhead is significantly higher for the WeakSingleValueContainer, since a weak GC handle is created for each unique item. You can use the WeakSingleValueContainer when the "region" is not as clearly defined and/or when you expect to have many duplicates and only a few unique instances.
-
-The example below should how the SingleValueContainer can be used to prevent duplicates of double arrays.
-
-```
-using SciTech.Collections;
+﻿using SciTech.Collections;
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
@@ -71,4 +60,3 @@ namespace SingleValueContainerDemo
         }
     }
 }
-```
